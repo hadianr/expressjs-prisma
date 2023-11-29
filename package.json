@@ -1,0 +1,17 @@
+{
+  "name": "latihan-expressjs",
+  "version": "1.0.0",
+  "description": "ini adalah latihan expressjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "hadian.rahmat@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.6.0",
+    "express": "^4.18.2",
+    "prisma": "^5.6.0"
+  }
+}

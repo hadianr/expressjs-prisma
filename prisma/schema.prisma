@@ -1,0 +1,16 @@
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model Players {
+    id Int @id @default(autoincrement())
+    name String @db.VarChar(100)
+    email String @db.VarChar(100)
+    role String @db.VarChar(100)
+    bio String?
+}
