@@ -17,7 +17,7 @@ COPY . .
 RUN npx prisma generate
 
 # Expose port
-EXPOSE 3000
+EXPOSE 8080
 
 # Command to run the application
 CMD ["node", "app.js"]
